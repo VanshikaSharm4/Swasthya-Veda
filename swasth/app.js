@@ -21,5 +21,20 @@ document.getElementById("predictBtn").addEventListener("click", function () {
     window.location.href = "http://localhost:3000/";
 });
 document.getElementById("sleep-btn").addEventListener("click", function () {
-    window.location.href = "https://snooze-zen-grove.lovable.app/";
+    window.location.href = "sleep.html";
+});
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.ansh').addEventListener('click', function() {
+    window.location.href = './ayurvedicheal/ayurvedicHeals.html';
+});
+});
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('#bookb').addEventListener('click', function() {
+    window.location.href = './booking/booking.html';
+});
+});
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.fixed-girl').addEventListener('click', function() {
+    window.location.href = './chatbot/chatbot.html';
+});
 });
